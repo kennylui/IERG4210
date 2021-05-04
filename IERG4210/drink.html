@@ -1,0 +1,58 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="function.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="shoppingList">
+            <p class="text">
+                <span class="short">Shopping List $50</span>
+                <span class="long">Shopping List  Total:$50<br>
+                    Buy 1 apple: $25<br>
+                    Buy 1 orange: $25<br>
+                    Total: $50<br>
+                    <button class="button">Checkout</button></span>
+            </p>
+        </div>
+        <div class="categoryList">
+            <ul>
+                <a href="food.html"><li>Food</li></a>
+                <a href="drink.html"><li>Drink</li></a>
+            </ul>
+        </div>
+    </div>
+    <div class="mainPage">
+        <div class="categoryNav">
+            <h3><a href="food.html" >Home</a>
+            > <a href="drink.html" >Drink</a></h3> 
+        </div>
+        <div class="productList">
+            <table>
+                <colgroup>
+                    <col width="33%">
+                    <col width="33%">
+                    <col width="34%">
+                </colgroup>
+                <tr>
+                    <td><img class="thumbnail" id="milk" src="image/milk.jpg"></td>
+                    <td><img class="thumbnail" id="chocolateMilk" src="image/chocolate_milk.jpg"></td>
+                    <td><img class="thumbnail" id="beer" src="image/beer.jpg"></td>
+                </tr>
+                <tr>
+                    <td><p><a href="milk.html">Milk</a></p></td>
+                    <td><p><a href="chocolateMilk.html">Chocolate Milk</a></p></td>
+                    <td><p><a href="beer.html">beer</a></p></td>
+                </tr>
+                <tr>
+                    <td><img class="thumbnail" id="water" src="image/water.jpg"></td>
+                </tr>
+                <tr>
+                    <td><p><a href="water.html">Water</a></p></td>
+                </tr>
+            </table>
+            </div>
+    </div>
+</body>
+</html>

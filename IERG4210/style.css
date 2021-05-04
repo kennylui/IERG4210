@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.shoppingList{
+    border: 1px solid #b4cde0;
+    width: 100%;
+    text-align: right;
+}
+
+span.long{
+    display: none;
+}
+
+.shoppingList:hover span.short {
+    display: none;
+}
+
+.shoppingList:hover span.long{
+    display: block;
+}
+
+.text{
+    color: grey;
+    font-size: 150%;
+}
+
+div.categoryList{
+    width: 12%;
+    border: 1px solid #bdc1c4;
+    background-color: rgb(236, 233, 233);
+    float: left;
+    font-size: 24px;
+}
+
+div.mainPage{
+    width: 75%;
+    float: right;
+}
+
+img.thumbnail{
+    width: 180px;
+    height: 120px;
+}
+
+table{
+    width: 100%;
+}
+
+p {
+    font-size: 22px;
+}
